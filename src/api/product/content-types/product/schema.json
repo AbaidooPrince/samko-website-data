@@ -1,22 +1,23 @@
 {
   "kind": "collectionType",
-  "collectionName": "sliders",
+  "collectionName": "products",
   "info": {
-    "singularName": "slider",
-    "pluralName": "sliders",
-    "displayName": "slider"
+    "singularName": "product",
+    "pluralName": "products",
+    "displayName": "product"
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "title": {
-      "type": "string",
-      "required": true,
-      "default": "Title"
+    "item": {
+      "type": "string"
     },
-    "subtitle": {
+    "description": {
+      "type": "text"
+    },
+    "price": {
       "type": "string"
     },
     "image": {
