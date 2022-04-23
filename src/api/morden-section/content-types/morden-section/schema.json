@@ -1,0 +1,33 @@
+{
+  "kind": "singleType",
+  "collectionName": "morden_sections",
+  "info": {
+    "singularName": "morden-section",
+    "pluralName": "morden-sections",
+    "displayName": "mordenSection"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "featuredImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
